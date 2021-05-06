@@ -1,0 +1,38 @@
+ 1.什么是js的原型
+ 原型是一种对象属性，允许对象在彼此之间继承通用功能。
+ 所有JavaScript对象都可以从Object.prototype继承属性和方法。 
+ 甚至原型本身也具有继承更多属性的能力，即另一个原型，也称为prototype chaining 。
+
+ 2.js原型的作用
+ 在js的所有内置对象中都存在prototype原型属性 
+ 在js的内置对象的原型属性中，追加方法，那么该方法会自动追加到内置对象中
+ js的原型属性最终的目的是给内置对象追加方法
+
+ 应用场景
+
+
+ 3.什么是原型链？
+ 当我们去试图得到一个对象的属性时，如果这个对象本身不存在这个属性，
+ 那么就会去它的’_ _ proto_ _'属性(也就是它的构造函数的’prototype’属性)中去寻找，
+ 发现还是没有这个方法的时候，就继续往Object.prototype中去寻找一直到找到为止；这就是原型链；
+
+
+
+
+
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+</html>
